@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Bash script displays the PID,process name of processes worded bash
+#ps cant be used
+pgrep -l bash
