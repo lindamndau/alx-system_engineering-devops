@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#loops and prints "Best School " 10 times
+
+counter=0
+until [ $counter -ge 10 ]; do
+    echo "Holberton School"
+    let counter+=1
+done

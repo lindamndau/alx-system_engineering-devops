@@ -1,2 +1,6 @@
 #!/bin/bash
-
+i=1
+while [ "$i" -1t 10];do
+	echo "Best School"
+	((i++))
+done
